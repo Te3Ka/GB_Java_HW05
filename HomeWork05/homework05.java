@@ -1,6 +1,15 @@
 import java.util.*;
 
 public class homework05 {
+    public static void author() {
+        System.out.println("//**********************************\\\\");
+        System.out.println("//*********  Created by:  **********\\\\");
+        System.out.println("//* Ilya \"Te3Ka_PaynE\" Novichikhin *\\\\");
+        System.out.println("//***** 79811131773@yandex.ru ******\\\\");
+        System.out.println("//**********************************\\\\");
+
+    }
+
     public static void main(String[] args) {
         List<String> numbers = new ArrayList<>();
         HashMap<String, List<String>> phoneBook = new HashMap<>();
@@ -47,5 +56,7 @@ public class homework05 {
         for (Map.Entry<String, List<String>> iter : list) {
             System.out.println(iter.getKey() + ": " + iter.getValue());
         }
+
+        author();
     }
 }
